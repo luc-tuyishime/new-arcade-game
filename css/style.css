@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+.score-display{
+  color: #ff5722;
+  font-weight: bold;
+  border: 1px solid #ff5722;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
