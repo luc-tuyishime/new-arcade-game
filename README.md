@@ -1,6 +1,12 @@
-frontend-nanodegree-arcade-game
-===============================
+Classic Arcade Game Clone(R) Version 1.0 07/21/2017.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+1-
+For this game you can realize that there are three different part in the canvas which are first the grass, second the stones and third the water block and the player is in his position inside the grass and enemies are inside the stones and nothings inside the water, so the main goal of the player is to reach  the water by traversing the stones without making any collision with the enemies or if the collision is made the player restart the again the game means come to the his first part (the grass). when the player reach the water by making no collision the ennemies increase randomly meaning they multiply.The player can move right , left , up and down. By reaching to the water by the player mean the player won the game and the score increase same to the level. More the level increase more its becoming hard.      
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+2-
+You can download or clone this project here
+https://github.com/luc-tuyishime/new-arcade-game
+
+3-
+After download the project you can open the /*index.html*/ in your default browser and play it.
+Have fun!

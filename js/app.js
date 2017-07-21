@@ -12,12 +12,12 @@ var Enemy = function(x, y,size) {
 };
 
 
-Enemy.prototype.update = function(dt) {
+Enemy.prototype.move = function(dt) {
     this.x = this.x + this.speed * dt;
     if (this.x >= 505) {
         this.x = 0;
     }
-       CollisionPossibilities(this); 
+       CollisionPossibilities(this);
 };
 
 
@@ -41,7 +41,7 @@ var Player = function(x, y,size){
   this.sprite = 'images/char-horn-girl.png';
 };
 
-Player.prototype.update = function() {
+Player.prototype.move = function() {
     // function not needed right now
     const enemy = new Enemy(0, Math.floor(Math.random() * 200) + 40);
 }
